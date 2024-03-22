@@ -6,7 +6,13 @@ Sur ce site, vous trouverez les légumes de saison à acheter, fraîchement réc
 ## Fonctionnalités
 -  Mise au panier 
 -  Choisir taille, variété et goût
+-  Possibilité de trouver des recettes avec les légumes de saison
 -   
 
-## Pré requis
+## Technologies
+- JS
+- HTML, CSS ET JS
+- SQL
+
+
 
