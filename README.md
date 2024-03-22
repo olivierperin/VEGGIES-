@@ -10,8 +10,12 @@ Sur ce site, vous trouverez les légumes de saison à acheter, fraîchement réc
 -  Possibilité de mettre des commentaires 
 
 ## Technologies
+- 
+
+
+## Technologies
 - JS
-- HTML, CSS ET JS
+- HTML, CSS
 - SQL
 
 
