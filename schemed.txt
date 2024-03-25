@@ -1,0 +1,30 @@
+Table "User" {
+  "id" int(11) [pk, increment]
+  "name" varchar(100) [not null]
+  "email" varchar (50) [not null]
+  "tel"  varchar (20) [not null]
+  "pseudo" varchar (50) [not null]
+  "motdepasse" varchar (20) [not null]
+
+}
+
+Table "Commande" {
+  "id" int(10) [pk, increment]
+  "Userid" varchar(50) [not null]
+  
+}
+
+Table "Item" {
+  "id" int(11) [pk, increment]
+  "label" varchar(100) [not null]
+  "prix " varchar(100) [not null]
+  "stock" varchar(100) [not null]
+  "photo" blob
+  "quantité" varchar(100) [not null]
+}
+
+
+
+// Ref "employee_ibfk_1":"department"."id" < "employee"."department_id" [delete: set null]
+
+// Ref "employee_ibfk_2":"role"."id" < "employee"."role_id" [delete: set null]
