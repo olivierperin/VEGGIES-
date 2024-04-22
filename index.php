@@ -1,6 +1,10 @@
 <?php
-echo "Home";
+
+if (isset($_GET['page'])) {
+    if(file_exists($_GET['page']. '.php')){
+        include($_GET['page']. '.php');
+    }
+}
 
 
-
-?php>
+?>
