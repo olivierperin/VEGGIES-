@@ -12,7 +12,7 @@ Sur ce site, vous trouverez les légumes de saison à acheter, fraîchement réc
 
 ## Pré requis
 - 
-_ 
+
 
 ## Technologies
 - JS
