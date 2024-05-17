@@ -1,16 +1,15 @@
 <?php
 
-echo "fdfd";
-
+$page = 'home';
 if (isset($_GET['page'])) {
-    if(file_exists($_GET['page']. '.php')){
-        include($_GET['page']. '.php');
+    $filename = 'pages/' . $_GET['page'] . '.php';
+    if(file_exists($filename)){
+       
+        $page = $_GET['page'];
     }
-    else {
-        echo "pas de fichier";
-    }
+    
 }
 
-echo "ert"
+include 'skeleton.php';
 
 ?>

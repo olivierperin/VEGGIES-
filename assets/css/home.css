@@ -1,0 +1,919 @@
+.page-acceuil-child {
+    align-self: stretch;
+    height: 316px;
+    position: relative;
+    background-color: var(--color-gainsboro);
+    display: none;
+  }
+  .page-acceuil-item {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: none;
+  }
+  .about,
+  .accueil {
+    position: relative;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .accueil {
+    margin: 0;
+    align-self: stretch;
+    width: 127px;
+    font-size: inherit;
+    font-weight: 500;
+    font-family: inherit;
+    display: inline-block;
+  }
+  .about {
+    width: 103px;
+  }
+  .about,
+  .lgumes,
+  .recettes {
+    margin: 0;
+    align-self: stretch;
+    font-size: inherit;
+    font-weight: 400;
+    font-family: inherit;
+    display: inline-block;
+  }
+  .lgumes {
+    width: 156px;
+    position: relative;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .recettes {
+    width: 151px;
+  }
+  .accueil1,
+  .contact,
+  .recettes {
+    position: relative;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .accueil1 {
+    width: 69px;
+    font-size: var(--font-size-xl);
+    color: var(--color-black);
+    display: none;
+  }
+  .contact {
+    margin: 0;
+    align-self: stretch;
+    width: 138px;
+    font-size: inherit;
+    font-weight: 500;
+    font-family: inherit;
+    display: inline-block;
+  }
+  .bandeau-menu {
+    margin-top: -119px;
+    margin-left: -1px;
+    align-self: stretch;
+    height: 97px;
+    background-color: var(--color-lightgreen);
+    border: 3px solid var(--color-darkorchid-200);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: var(--padding-7xl-5) var(--padding-131xl) var(--padding-7xl-5) 143px;
+    top: -119;
+    z-index: 99;
+    position: sticky;
+    gap: var(--gap-xl);
+    flex-shrink: 0;
+    margin-top: 44px;
+  }
+  .frame-child {
+    height: 118px;
+    width: 157px;
+    position: absolute;
+    margin: 0 !important;
+    bottom: -20px;
+    left: calc(50% - 78.5px);
+    border-radius: 50%;
+    background-color: var(--color-gainsboro);
+  }
+  .friendly,
+  .veggies {
+    margin: 0;
+  }
+  .logo {
+    height: 53px;
+    flex: 1;
+    position: relative;
+    display: inline-block;
+    z-index: 1;
+    margin-bottom: 20px;
+  }
+  
+  .accueil2 {
+    position: relative;
+    font-size: var(--font-size-xl);
+    display: inline-block;
+    font-family: var(--font-inter);
+    color: var(--color-darkorchid-200);
+    text-align: left;
+    min-width: 74px;
+  }
+  .btn {
+    cursor: pointer;
+    border: 3px solid var(--color-darkorchid-200);
+    padding: var(--padding-4xl) var(--padding-32xl);
+    background-color: var(--color-lightgreen);
+    width: 182px;
+    border-radius: var(--br-5xl);
+    box-sizing: border-box;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .btn1:hover,
+  .btn2:hover,
+  .btn3:hover,
+  .btn:hover {
+    background-color: var(--color-forestgreen);
+    border: 3px solid var(--color-darkorchid-100);
+    box-sizing: border-box;
+  }
+  .rechercher {
+    position: relative;
+    font-size: var(--font-size-xl);
+    display: inline-block;
+    font-family: var(--font-inter);
+    color: var(--color-darkorchid-200);
+    text-align: left;
+    min-width: 114px;
+  }
+
+  .recher{
+    background-color: #9C27B0;
+    color:white;
+  }
+  .btn1 {
+    cursor: pointer;
+    border: 3px solid var(--color-darkorchid-200);
+    padding: var(--padding-4xl) var(--padding-32xl);
+    background-color: var(--color-lightgreen);
+    
+    border-radius: var(--br-5xl);
+    box-sizing: border-box;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .se-connecter {
+    position: relative;
+    font-size: var(--font-size-xl);
+    font-family: var(--font-inter);
+    color: var(--color-darkorchid-200);
+    text-align: left;
+  }
+  .btn2 {
+    cursor: pointer;
+    border: 3px solid var(--color-darkorchid-200);
+    padding: var(--padding-4xl) var(--padding-32xl);
+    background-color: var(--color-lightgreen);
+  
+    border-radius: var(--br-5xl);
+    box-sizing: border-box;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    white-space: nowrap;
+  }
+  .panier {
+    position: relative;
+    font-size: 10px;
+    display: inline-block;
+    font-family: var(--font-inter);
+    color: var(--color-darkorchid-200);
+    text-align: left;
+    min-width: 13px;
+  }
+
+  .btn3,
+  .frame-parent {
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    box-sizing: border-box;
+  }
+  .btn3 {
+    cursor: pointer;
+    border: 3px solid var(--color-darkorchid-200);
+    padding: var(--padding-4xl) var(--padding-32xl);
+    background-color: var(--color-lightgreen);
+  
+
+    border-radius: var(--br-5xl);
+    justify-content: flex-start;
+  }
+  .frame-parent {
+
+    height: 60px;
+    
+    justify-content: space-between;
+    padding: 8px var(--padding-11xl);
+    gap: var(--gap-xl);
+    max-width: 100%;
+    margin-top: 2px;
+    padding-top: var(--padding-3xs);
+    margin-bottom: -22px;
+    padding-bottom: var(--padding-11xl);
+  }
+  .about1,
+  .accueil3 {
+    position: relative;
+    display: inline-block;
+    
+  }
+  .accueil3 {
+    margin: 0;
+    font-size: inherit;
+    font-weight: 400;
+    font-family: inherit;
+
+  }
+  .about1 {
+    min-width: 103px;
+  }
+  .about1,
+  .lgumes1,
+  .recettes1 {
+    margin: 0;
+    font-size: inherit;
+    font-weight: 400;
+    font-family: inherit;
+  }
+  .accueil4,
+  .contact1,
+  .lgumes1,
+  .recettes1 {
+    position: relative;
+   
+  }
+  .accueil4 {
+    width: 69px;
+    font-size: var(--font-size-xl);
+    color: var(--color-black);
+    display: none;
+  }
+  .contact1 {
+    margin: 0;
+    font-size: inherit;
+    font-weight: 400;
+    font-family: inherit;
+  }
+  .bandeau-menu1 {
+    margin: 0;
+    align-self: stretch;
+    background-color: #dbf7c4;
+    
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: var(--padding-4xl) var(--padding-xl);
+    gap: 136px;
+    white-space: nowrap;
+    text-align: center;
+    font-size: var(--font-size-17xl);
+    color: var(--color-darkorchid-200);
+    font-family: var(--font-inter);
+    margin-top: 25px;
+  }
+  .instance-parent,
+  .page-acceuil-inner {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .instance-parent {
+    width: 1504px;
+    flex-direction: column;
+    padding: 0;
+    gap: var(--gap-3xl);
+    text-align: center;
+    font-size: var(--font-size-5xl);
+    color: var(--color-darkorchid-200);
+    font-family: var(--font-inter);
+  }
+  .page-acceuil-inner {
+    flex-direction: row;
+    
+  }
+  .frame-item {
+    height: 358px;
+    flex: 1;
+    position: relative;
+  
+    overflow: hidden;
+   
+
+  }
+  .frame-section {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+ 
+    box-sizing: border-box;
+    width: max;
+  }
+  .bienvenue-chez-friendly-veggie {
+    margin: 0;
+    font-size: 35px;
+  }
+  .blank-line {
+    margin: 0;
+  }
+  .blank-line1,
+  .dcouvrez-une-alimentation,
+  .friendly-veggies-cultivons,
+  .p,
+  .p1,
+  .p2,
+  .pour-une-exprience,
+  .rejoignez-nous-dans-notre,
+  .tous-nos-lgumes {
+    margin: 0;
+    font-weight: 60;
+  }
+  .bienvenue-chez-friendly-container1 {
+    width: 100%;
+    background-color:#DBF7C4;
+  }
+  .bienvenue-chez-friendly-container {
+    height: 481px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+   
+    mix-blend-mode: normal;
+    max-width: 100%;
+  }
+  .bienvenue-chez-friendly-veggie-wrapper,
+  .page-acceuil-inner1 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    box-sizing: border-box;
+    width:autoj;
+  }
+  .bienvenue-chez-friendly-veggie-wrapper {
+  
+    background-color: #DBF7C4;
+    justify-content: center;
+ 
+ 
+  }
+  .page-acceuil-inner1 {
+    align-self: stretch;
+    justify-content: flex-start;
+    
+    flex-shrink: 0;
+    text-align: center;
+    font-size: var(--font-size-13xl);
+    
+    font-family: var(--font-inter);
+  }
+  .champ-1-icon {
+    align-self: stretch;
+    flex: 1;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+  }
+  .le-lorem-ipsum-ecomposition-et {
+    height: 192px;
+    width: 257px;
+    position: relative;
+    font-weight: 200;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+  }
+  .le-lorem-ipsum-ecomposition-et-wrapper {
+    align-self: stretch;
+    border: 3px solid var(--color-darkorchid-200);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: var(--padding-7xs) var(--padding-6xs);
+  }
+  .champ-1-parent {
+    align-self: stretch;
+    width: 277px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .champ-1-icon1 {
+    align-self: stretch;
+    flex: 1;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+  }
+  .le-lorem-ipsum-ecomposition-et1 {
+    height: 192px;
+    width: 257px;
+    position: relative;
+    font-weight: 200;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+  }
+  .le-lorem-ipsum-ecomposition-et-container {
+    align-self: stretch;
+    border: 3px solid var(--color-darkorchid-200);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: var(--padding-7xs) var(--padding-6xs);
+  }
+  .champ-1-group {
+    align-self: stretch;
+    width: 277px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .champ-1-icon2 {
+    align-self: stretch;
+    flex: 1;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+  }
+  .le-lorem-ipsum-ecomposition-et2 {
+    height: 192px;
+    width: 257px;
+    position: relative;
+    font-weight: 200;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+  }
+  .le-lorem-ipsum-ecomposition-et-frame {
+    align-self: stretch;
+    border: 3px solid var(--color-darkorchid-200);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: var(--padding-7xs) var(--padding-6xs);
+  }
+  .champ-1-container,
+  .frame-group {
+    border-radius: var(--br-xl);
+    flex-shrink: 0;
+    display: flex;
+    align-items: flex-start;
+  }
+  .champ-1-container {
+    align-self: stretch;
+    width: 277px;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .frame-group {
+    margin-left: -2px;
+    margin-bottom: 35px;
+    width: 1512px;
+    height: 434px;
+    overflow-x: auto;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: var(--padding-3xs) var(--padding-131xl) 0;
+    box-sizing: border-box;
+    gap: var(--gap-xl);
+    max-width: 100%;
+    text-align: center;
+    font-size: var(--font-size-xl);
+    color: var(--color-black);
+    font-family: var(--font-inter);
+  }
+  .vous-voulez-des {
+    margin-top: 50px;
+    margin-bottom: 10px;
+    position: relative;
+    font-size: 35px;
+    font-weight: 500;
+    font-family: inherit;
+    color:#9C27B0;
+   justify-content: center;
+  }
+  .input,
+  .votre-e-mail {
+    display: flex;
+    justify-content: center;
+  }
+  .votre-e-mail {
+    width: 160px;
+    position: relative;
+    align-items: center;
+    flex-shrink: 0;
+  }
+  .input {
+    background-color:red;
+  }
+  .btn-child,
+  .sabonner-la {
+    position: relative;
+  }
+  .btn-child {
+    height: 100px;
+    width: 100px;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: none;
+    z-index: 2;
+  }
+  .btn4,
+  .frame-wrapper,
+  .input-parent {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    max-width: 100%;
+  }
+ 
+  .frame-wrapper,
+  .input-parent {
+    justify-content: center;
+  }
+  .input-parent {
+    width: 924px;
+    gap: var(--gap-11xl);
+  }
+  .frame-wrapper {
+    width: 1098px;
+    padding: 0 var(--padding-xl);
+    box-sizing: border-box;
+    font-size: var(--font-size-5xl);
+  }
+  .vous-voulez-des-nouvelles-de-f-parent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 83px;
+    max-width: 100%;
+  }
+  .page-acceuil-inner2 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0 21px 35px var(--padding-xl);
+    box-sizing: border-box;
+    max-width: 100%;
+    flex-shrink: 0;
+    text-align: center;
+    font-size: var(--font-size-29xl);
+    color: var(--color-black);
+    font-family: var(--font-inter);
+  }
+  .liens-vers-le {
+    margin: 0;
+    font-size: var(--font-size-17xl);
+    font-weight: 700;
+    font-family: inherit;
+  }
+  .about2,
+  .accueil5,
+  .contact2,
+  .lgumes2,
+  .liens-vers-le,
+  .recette {
+    align-self: stretch;
+    height: 58px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+  }
+  .about2,
+  .contact2,
+  .lgumes2,
+  .recette {
+    height: 66px;
+  }
+  .contact2,
+  .lgumes2,
+  .recette {
+    height: 65px;
+  }
+  .contact2 {
+    height: 64px;
+  }
+  .liens-vers-le-site-parent {
+    height: 379px;
+    width: 327px;
+    border: 3px solid var(--color-darkorchid-200);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    max-width: 100%;
+  }
+  .liens-utiles {
+    margin: 0;
+    font-size: var(--font-size-17xl);
+    font-weight: 700;
+    font-family: inherit;
+  }
+  .dates-de-cueillette,
+  .dates-de-cueillettes,
+  .liens-utiles,
+  .politique-de-confidentialit {
+    align-self: stretch;
+    height: 58px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+  }
+  .dates-de-cueillette,
+  .dates-de-cueillettes {
+    height: 66px;
+  }
+  .liens-utiles-parent {
+    width: 327px;
+    border: 3px solid var(--color-darkorchid-200);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 0 var(--padding-18xl);
+    gap: var(--gap-11xl);
+    min-height: 379px;
+    max-width: 100%;
+  }
+  .frame-container {
+    width: 775px;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 var(--padding-12xs) 0 0;
+    max-width: 100%;
+    gap: var(--gap-xl);
+  }
+  .frame-container,
+  .frame-footer,
+  .home,
+  .page-acceuil {
+    display: flex;
+    align-items: flex-start;
+    box-sizing: border-box;
+  }
+  .frame-footer {
+    margin-left: -3px;
+    align-self: stretch;
+    background-color:#DBF7C4;
+    overflow: hidden;
+    flex-direction: row;
+    justify-content: center;
+    padding: 77px var(--padding-xl) 84px;
+    max-width: 100%;
+    flex-shrink: 0;
+    text-align: center;
+    font-size: var(--font-size-xl);
+    color: var(--color-black);
+    font-family: var(--font-inter);
+  }
+  .home,
+  .page-acceuil {
+    justify-content: flex-start;
+  }
+  .page-acceuil {
+   
+    background-color: var(--color-white);
+    flex-direction: column;
+    
+
+    max-width: 100%;
+    flex-shrink: 0;
+    text-align: center;
+    font-size: var(--font-size-17xl);
+    color: var(--color-darkorchid-200);
+    font-family: var(--font-inter);
+  }
+  .home {
+    position: relative;
+    width: 100%;
+    flex-direction: row;
+  
+    line-height: normal;
+    letter-spacing: normal;
+  }
+  @media screen and (max-width: 1200px) {
+    .bandeau-menu1 {
+      flex-wrap: wrap;
+      gap: 68px;
+      justify-content: flex-start;
+    }
+    .frame-group {
+      padding-left: var(--padding-56xl);
+      padding-right: var(--padding-56xl);
+      box-sizing: border-box;
+    }
+    .vous-voulez-des-nouvelles-de-f-parent {
+      gap: 41px;
+    }
+    .page-acceuil {
+      height: auto;
+    }
+  }
+  @media screen and (max-width: 1050px) {
+    .bienvenue-chez-friendly-veggie-wrapper {
+      padding-top: var(--padding-106xl);
+      padding-bottom: var(--padding-106xl);
+      box-sizing: border-box;
+    }
+    .btn4 {
+      flex: 1;
+    }
+    .input-parent {
+      flex-wrap: wrap;
+    }
+  }
+  @media screen and (max-width: 750px) {
+    .bandeau-menu {
+      padding-left: 71px;
+      padding-right: var(--padding-56xl);
+      box-sizing: border-box;
+    }
+    .about1,
+    .accueil3,
+    .contact1,
+    .lgumes1,
+    .recettes1 {
+      font-size: var(--font-size-10xl);
+    }
+    .bandeau-menu1 {
+      gap: 34px;
+    }
+    .bienvenue-chez-friendly-container {
+      font-size: 26px;
+    }
+    .frame-group {
+      padding-left: var(--padding-18xl);
+      padding-right: var(--padding-18xl);
+      box-sizing: border-box;
+    }
+    .vous-voulez-des {
+      font-size: 38px;
+    }
+    .btn4,
+    .input {
+      min-width: 100%;
+    }
+    .vous-voulez-des-nouvelles-de-f-parent {
+      gap: 21px;
+    }
+    .liens-utiles,
+    .liens-vers-le {
+      font-size: var(--font-size-10xl);
+    }
+    .frame-container {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .frame-footer {
+      padding-top: 50px;
+      padding-bottom: 55px;
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .bandeau-menu {
+      padding-left: var(--padding-xl);
+      padding-right: var(--padding-xl);
+      box-sizing: border-box;
+    }
+    .accueil2,
+    .panier,
+    .rechercher {
+      font-size: var(--font-size-base);
+    }
+    .about1,
+    .accueil3,
+    .lgumes1,
+    .recettes1 {
+      font-size: var(--font-size-3xl);
+    }
+    .accueil4 {
+      font-size: var(--font-size-base);
+    }
+    .contact1 {
+      font-size: var(--font-size-3xl);
+    }
+    .bandeau-menu1 {
+      gap: 17px;
+    }
+    .bienvenue-chez-friendly-container {
+      font-size: var(--font-size-lgi);
+    }
+    .bienvenue-chez-friendly-veggie-wrapper {
+      padding-top: var(--padding-62xl);
+      padding-bottom: var(--padding-62xl);
+      box-sizing: border-box;
+    }
+    .le-lorem-ipsum-ecomposition-et,
+    .le-lorem-ipsum-ecomposition-et1,
+    .le-lorem-ipsum-ecomposition-et2 {
+      font-size: var(--font-size-base);
+    }
+    .vous-voulez-des {
+      font-size: var(--font-size-10xl);
+    }
+    .sabonner-la {
+      font-size: var(--font-size-lgi);
+    }
+    .btn4 {
+      padding-left: var(--padding-xl);
+      padding-right: var(--padding-xl);
+      box-sizing: border-box;
+    }
+    .liens-vers-le {
+      font-size: var(--font-size-3xl);
+    }
+    .about2,
+    .accueil5,
+    .contact2,
+    .lgumes2,
+    .recette {
+      font-size: var(--font-size-base);
+    }
+    .liens-utiles {
+      font-size: var(--font-size-3xl);
+    }
+    .dates-de-cueillette,
+    .dates-de-cueillettes,
+    .politique-de-confidentialit {
+      font-size: var(--font-size-base);
+    }
+  }
+  .imgpanier {
+    height: 40px;
+  }
+
+  .connection {
+    height: 30px;
+  }
+  .header-panier {
+    position:relative;
+    
+  }
+  
+  .compteur {
+    position:absolute;
+    height: 15px;
+    width:15px;
+    top:0px;
+    left:-20px;
+    background: #9c27b0;
+    font-size: 10px;
+    padding:1px;
+    border-radius: 50%;
+    color:white;
+  }
