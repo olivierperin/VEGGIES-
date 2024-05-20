@@ -57,44 +57,57 @@
           </div>
         </section>
         <section class="frame-group">
-          <div class="champ-1-parent">
-            <img
-              class="champ-1-icon"
-              loading="lazy"
-              alt=""
-              src="./assets/images/champ-1-1@2x.png"
-            />
-
-            <div class="le-lorem-ipsum-ecomposition-et-wrapper">
-              <div class="le-lorem-ipsum-ecomposition-et">
-                Le Lorem Ipsum ecomposition et la mise en page avant impression.
-                Le Lorem Ipsum ur anonyfeuilrdes applications de mise en page de
-                texte, comme Aldus PageMaker.
+          <div class="flex gap-15 flex-wrap ">
+            <div class="champ-1-parent">
+              <img
+                class="champ-1-icon"
+                loading="lazy"
+                alt=""
+                src="./assets/images/champ-1-1@2x.png"
+              />
+  
+              <div class="le-lorem-ipsum-ecomposition-et-wrapper">
+                <div class="le-lorem-ipsum-ecomposition-et">
+                  Le Lorem Ipsum ecomposition et la mise en page avant impression.
+                  Le Lorem Ipsum ur anonyfeuilrdes applications de mise en page de
+                  texte, comme Aldus PageMaker.
+                </div>
+              </div>
+            </div>
+            <div class="champ-1-parent">
+              <img
+                class="champ-1-icon"
+                loading="lazy"
+                alt=""
+                src="./assets/images/champ-1-1@2x.png"
+              />
+  
+              <div class="le-lorem-ipsum-ecomposition-et-wrapper">
+                <div class="le-lorem-ipsum-ecomposition-et">
+                  Le Lorem Ipsum ecomposition et la mise en page avant impression.
+                  Le Lorem Ipsum ur anonyfeuilrdes applications de mise en page de
+                  texte, comme Aldus PageMaker.
+                </div>
+              </div>
+            </div>
+            <div class="champ-1-parent">
+              <img
+                class="champ-1-icon"
+                loading="lazy"
+                alt=""
+                src="./assets/images/champ-1-1@2x.png"
+              />
+  
+              <div class="le-lorem-ipsum-ecomposition-et-wrapper">
+                <div class="le-lorem-ipsum-ecomposition-et">
+                  Le Lorem Ipsum ecomposition et la mise en page avant impression.
+                  Le Lorem Ipsum ur anonyfeuilrdes applications de mise en page de
+                  texte, comme Aldus PageMaker.
+                </div>
               </div>
             </div>
           </div>
-          <div class="champ-1-group">
-            <img class="champ-1-icon1" alt="" src="./assets/images/champ-1-1@2x.png" />
-
-            <div class="le-lorem-ipsum-ecomposition-et-container">
-              <div class="le-lorem-ipsum-ecomposition-et1">
-                Le Lorem Ipsum ecomposition et la mise en page avant impression.
-                Le Lorem Ipsum ur anonyfeuilrdes applications de mise en page de
-                texte, comme Aldus PageMaker.
-              </div>
-            </div>
-          </div>
-          <div class="champ-1-container">
-            <img class="champ-1-icon2" alt="" src="./assets/images/champ-1-1@2x.png" />
-
-            <div class="le-lorem-ipsum-ecomposition-et-frame">
-              <div class="le-lorem-ipsum-ecomposition-et2">
-                Le Lorem Ipsum ecomposition et la mise en page avant impression.
-                Le Lorem Ipsum ur anonyfeuilrdes applications de mise en page de
-                texte, comme Aldus PageMaker.
-              </div>
-            </div>
-          </div>
+          
         </section>
         <section class="page-acceuil-inner2">
           <div class="vous-voulez-des-nouvelles-de-f-parent">
@@ -104,7 +117,7 @@
             <div class="frame-wrapper">
               <div class="input-parent">
                 
-                <form>
+                <form class="flex">
                     <input type="text" placeholder="Votre e-mail" class="input">
                     <button class="btn4">Envoi</button>
                </form>

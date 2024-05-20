@@ -1,0 +1,27 @@
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.bread {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+.legumes {
+  width: 100%;
+  max-width: 1200px;
+}

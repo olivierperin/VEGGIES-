@@ -297,7 +297,7 @@
   }
   .instance-parent,
   .page-acceuil-inner {
-    display: flex;
+ 
     align-items: flex-start;
     justify-content: flex-start;
     box-sizing: border-box;
@@ -360,7 +360,7 @@
     background-color:#DBF7C4;
   }
   .bienvenue-chez-friendly-container {
-    height: 481px;
+   /*  height: 481px; */
     width: 100%;
     position: relative;
     display: flex;
@@ -405,14 +405,17 @@
     object-fit: cover;
   }
   .le-lorem-ipsum-ecomposition-et {
-    height: 192px;
-    width: 257px;
+    
     position: relative;
-    font-weight: 200;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-shrink: 0;
+  font-weight: 200;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 12px;
+  overflow: hidden;
+  font-size: 14px;
+ 
   }
   .le-lorem-ipsum-ecomposition-et-wrapper {
     align-self: stretch;
@@ -425,7 +428,7 @@
   }
   .champ-1-parent {
     align-self: stretch;
-    width: 277px;
+    width: 33%;
     flex-shrink: 0;
     display: flex;
     flex-direction: column;
@@ -442,14 +445,17 @@
     object-fit: cover;
   }
   .le-lorem-ipsum-ecomposition-et1 {
-    height: 192px;
-    width: 257px;
+    
     position: relative;
-    font-weight: 200;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-shrink: 0;
+  font-weight: 200;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 12px;
+  overflow: hidden;
+  font-size: 14px;
+ 
   }
   .le-lorem-ipsum-ecomposition-et-container {
     align-self: stretch;
@@ -462,7 +468,7 @@
   }
   .champ-1-group {
     align-self: stretch;
-    width: 277px;
+    width: 33%;
     flex-shrink: 0;
     display: flex;
     flex-direction: column;
@@ -479,23 +485,28 @@
     object-fit: cover;
   }
   .le-lorem-ipsum-ecomposition-et2 {
-    height: 192px;
-    width: 257px;
+    
     position: relative;
-    font-weight: 200;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-shrink: 0;
+  font-weight: 200;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 12px;
+  overflow: hidden;
+  font-size: 14px;
+    
   }
   .le-lorem-ipsum-ecomposition-et-frame {
-    align-self: stretch;
-    border: 3px solid var(--color-darkorchid-200);
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    padding: var(--padding-7xs) var(--padding-6xs);
+    position: relative;
+  font-weight: 200;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 12px;
+  overflow: hidden;
+  font-size: 14px;
   }
   .champ-1-container,
   .frame-group {
@@ -506,15 +517,15 @@
   }
   .champ-1-container {
     align-self: stretch;
-    width: 277px;
+    width: 33%;
     flex-direction: column;
     justify-content: flex-start;
   }
   .frame-group {
     margin-left: -2px;
     margin-bottom: 35px;
-    width: 1512px;
-    height: 434px;
+    
+  
     overflow-x: auto;
     flex-direction: row;
     justify-content: space-between;
@@ -549,7 +560,9 @@
     flex-shrink: 0;
   }
   .input {
-    background-color:red;
+    background-color:#DBF7C4;
+    height:50px;
+    width:250px;
   }
   .btn-child,
   .sabonner-la {
@@ -570,8 +583,17 @@
     flex-direction: row;
     align-items: flex-start;
     max-width: 100%;
+    display: flex;
+  flex-direction: row;
+  align-items: center;
+  max-width: 100%;
+  justify-content: center;
   }
- 
+ .btn4 {
+  color:#9C27B0;
+  font-size: 20px;
+
+ }
   .frame-wrapper,
   .input-parent {
     justify-content: center;
@@ -579,6 +601,7 @@
   .input-parent {
     width: 924px;
     gap: var(--gap-11xl);
+   
   }
   .frame-wrapper {
     width: 1098px;
@@ -755,6 +778,7 @@
       padding-left: var(--padding-56xl);
       padding-right: var(--padding-56xl);
       box-sizing: border-box;
+      flex-wrap: wrap;
     }
     .vous-voulez-des-nouvelles-de-f-parent {
       gap: 41px;
@@ -916,4 +940,19 @@
     padding:1px;
     border-radius: 50%;
     color:white;
+  }
+
+  .flex {
+    display:flex;
+
+  }
+.flex-wrap {
+  flex-wrap:wrap;
+}
+.gap-15 {
+  gap:15px;
+}
+  .frame-group > div > div {
+    max-width: 30%!important;
+    display: flex;
   }
