@@ -14,8 +14,8 @@
       <img src="./assets/images/tomate.jpg"/>
       
       <div class="nometprixpanier">
-          <div class="nomlegpanier">Tomates
-          </div>
+          <span class="nomlegpanier">Tomates
+          </span>
           <div class="prixlegpanier">10€
           </div>
           </div>
@@ -64,5 +64,35 @@
 
   </section>
   <section class="resume">
+    
+    <p class="resumepanier">Résumé
+    </p>
+
+    <div class="sstotallivrpanier">
+      <div class="sstotalprix">
+        <span class="sstot">Ss Total
+        </span>
+        <span class="prixtot">120€
+        </span>  
+      </div>
+      <div class="livrprix">
+        <span class="livr">Livraison
+        </span>
+        <span class="prixtotlivr">120€
+        </span>  
+      </div>
+    </div>
+
+    <div class="totalpan">
+      <span class="tot">TOTAL
+      </span>
+      <span class="prixtot">240€
+      </span>
+
+    </div>
+
+    <button class="paiementpani">Paiement
+    </button>
+
   </section> 
 </div>  

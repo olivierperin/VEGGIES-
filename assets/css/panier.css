@@ -5,7 +5,7 @@ body {
 
 .home {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   padding: 20px;
 }
@@ -24,4 +24,47 @@ h1 {
 .legumes {
   width: 100%;
   max-width: 1200px;
+}
+.lignescomm {
+  width:80%;
+}
+
+
+.lignecomm {
+  border:#AF52BF solid 2px;
+  display:flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin:5px;
+}
+
+.nometprixpanier {
+  
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.totalprixpanier {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.plusmoinspanier {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.resume {
+  border:#AF52BF solid 2px;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  margin:5px;
+  width:30%;
+
 }

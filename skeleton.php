@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="./assets/css/about.css" />
     <link rel="stylesheet" href="./assets/css/legumes.css" />
     <link rel="stylesheet" href="./assets/css/panier.css" />
+    <link rel="stylesheet" href="./assets/css/contact.css" />
+
+
 
     <link
       rel="stylesheet"
