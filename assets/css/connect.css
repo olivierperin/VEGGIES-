@@ -1,0 +1,38 @@
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.home {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px;
+  align-items: flex-start;
+}
+
+.bread {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.container1 {
+  width:50%;
+
+}
+
+.formulaire {
+display:flex;
+flex-direction: column;
+align-items: baseline;
+justify-content: space-evenly;
+margin:15px;
+}
+
+.formulaire2 {
+  display:flex;
+  flex-direction: column;
+  align-items: baseline;
+  justify-content: space-evenly;
+  margin:15px;
+  }
