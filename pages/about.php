@@ -1,10 +1,10 @@
 
-<p class="bread">
+<p class="bread1">
   <b>About</b>
   <br>
 
 
-<div class="home flex">
+<div class="aboutab">
 
 
 <section class="champetproprio">
@@ -13,10 +13,10 @@
   <img class="imgchamp" src="assets/images/proprios.webp"/>
 </section>
 
-<section class="chemin">
+<div class="chemin">
   <div class="story">
     <div class="passion">
-      <h1 class="passio"`>De la Passion à l'Assiette : Le chemin de Friendly Veggies
+      <h1 class="passio">De la Passion à l'Assiette : Le chemin de Friendly Veggies
       </h1>
     <div class="bonjour">
         <p class="bonjou">Bonjour à tous! Je suis Philippa, une passionnée de maraîchage et je souhaite partager avec vous une nouvelle étape excitante de mon parcours.
@@ -33,6 +33,6 @@
       
 
 </div>
-</section>
+</div>
 
 </div>

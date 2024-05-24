@@ -18,7 +18,12 @@ body {
 
 .container1 {
   width:50%;
+  padding:40px;
 
+}
+.container2 {
+  width:50%;
+  padding:40px;
 }
 
 .formulaire {
@@ -26,7 +31,14 @@ display:flex;
 flex-direction: column;
 align-items: baseline;
 justify-content: space-evenly;
-margin:15px;
+
+gap:10px;
+background-color: #f8f8f8;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 10px;
+
 }
 
 .formulaire2 {
@@ -34,5 +46,24 @@ margin:15px;
   flex-direction: column;
   align-items: baseline;
   justify-content: space-evenly;
-  margin:15px;
+
+  gap:10px;
+  background-color: #f8f8f8;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 10px;
   }
+
+ input[type="text"],[type="email"]{
+  width: 50%;
+ }
+
+ label {
+  background-color: #DBF7C4;
+ }
+
+button [type="submit"] {
+  color:black;
+  font-weight: 700;
+ }

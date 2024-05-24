@@ -11,11 +11,11 @@
 
     <h1>S'inscrire</h1>
     <form class="formulaire">
-            <label for="nom">Nom</label>
-            <input type="text" id="username" name="username" required>
+            <label for="nom1">Nom</label>
+            <input type="text" id="nom1" name="username" required>
 
             <label for="prenom">Prénom</label>
-            <input type="text" id="username" name="username" required>
+            <input type="text" id="prenom" name="username" required>
             
             <label for="email">Adresse e-mail</label>
             <input type="email" id="email" name="email" required>

@@ -1,12 +1,17 @@
-.home {
-  flex-direction: column;
-  padding: 30px;
-}
 
-.bread {
+.champ {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding:15px;
+  gap:10px;
+  align-items: center;
+  justify-content: space-around;
+}
+.bread1 {
   color:#B359C2;
-  padding-left: 10px;
-  font-size: 30px;
+  padding-left: 30px;
+ 
   font-weight: 400;
 }
 
@@ -16,6 +21,11 @@
   align-content: center;
   color:#B359C2;
   background-color: #DBF7C4;
- 
+  padding:15px;
 
+}
+
+.passion{
+  display: flex;
+  flex-direction: column;
 }

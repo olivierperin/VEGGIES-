@@ -13,6 +13,7 @@ body {
 .bread {
   font-size: 18px;
   margin-bottom: 10px;
+  margin:20px;
 }
 
 h1 {
@@ -21,16 +22,29 @@ h1 {
   margin-left: 20px;
 }
 
-.legumes {
+.legumes1 {
   width: 100%;
-  max-width: 1200px;
+  display: flex;
+  flex-direction: row;
+  gap:10px;
+  margin:20px;
+
+}
+.coldroit{
+  background-color: #f8f8f8;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 10px;
+  width: 300px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  width:35%;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  gap:10px;
 }
 
-.rowleg {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-}
 
 .vignette {
   background-color: #f8f8f8;
@@ -38,7 +52,7 @@ h1 {
   border-radius: 8px;
   padding: 20px;
   margin: 10px;
-  width: 300px;
+  width: 40%;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
@@ -139,4 +153,94 @@ button:hover {
 
 .prixtext {
   font-weight: bold;
+}
+
+.notations{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin:20px;
+  align-items: flex-start;
+}
+
+.comment{
+  display: flex;
+  flex-direction: column;
+  background-color: #f8f8f8;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 10px;
+  width: 300px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  width:50%;
+  font-weight: bold;
+  gap:10px;
+}
+.fav {
+  background-color: #f8f8f8;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+ 
+  width: 300px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  width:30%;
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  gap:10px;
+
+}
+
+.notat{
+  background-color: #f8f8f8;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 10px;
+  width: 300px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  width:15%;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  gap:10px;
+}
+
+.descri {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+
+}
+.saiso {
+  display: flex;
+  flex-direction: row;
+  gap:10px;
+  padding: 5px;
+  width: 60%;
+  background-color: #f8f8f8;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  
+
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+.saisorec {
+ display: flex; 
+flex-direction:row;
+}
+
+.famil {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+}
+.mettre{
+  margin: 5px;
+}
+.fav1 {
+width:30%;
 }
