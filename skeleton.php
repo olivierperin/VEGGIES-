@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="./assets/css/connect.css" />
     <link rel="stylesheet" href="./assets/css/contact.css" />
     <link rel="stylesheet" href="./assets/css/recherche.css" />
+    <link rel="stylesheet" href="./assets/css/catalogue.css" />
 
 
 

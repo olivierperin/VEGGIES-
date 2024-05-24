@@ -213,7 +213,18 @@ button:hover {
   flex-direction: column;
   width: 50%;
 
+
 }
+
+.descricontent{
+  background-color: #f8f8f8;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 5px;
+  
+  width: 100%;
+}
+
 .saiso {
   display: flex;
   flex-direction: row;

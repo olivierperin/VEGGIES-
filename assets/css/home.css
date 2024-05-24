@@ -109,7 +109,7 @@
     position: relative;
     display: inline-block;
     z-index: 1;
-    margin-bottom: 20px;
+   
   }
   
   .accueil2 {
@@ -231,7 +231,7 @@
     max-width: 100%;
     margin-top: 2px;
     padding-top: var(--padding-3xs);
-    margin-bottom: -22px;
+
     padding-bottom: var(--padding-11xl);
   }
   .about1,
@@ -539,7 +539,7 @@
     font-family: var(--font-inter);
   }
   .vous-voulez-des {
-    margin-top: 50px;
+  
     margin-bottom: 10px;
     position: relative;
     font-size: 35px;
@@ -554,15 +554,16 @@
     justify-content: center;
   }
   .votre-e-mail {
-    width: 160px;
+
     position: relative;
     align-items: center;
     flex-shrink: 0;
   }
-  .input {
+  .inputhome {
     background-color:#DBF7C4;
     height:50px;
-    width:250px;
+
+    width:50%;
   }
   .btn-child,
   .sabonner-la {
@@ -599,12 +600,12 @@
     justify-content: center;
   }
   .input-parent {
-    width: 924px;
+    width: 50%;
     gap: var(--gap-11xl);
    
   }
   .frame-wrapper {
-    width: 1098px;
+    width: 100%;
     padding: 0 var(--padding-xl);
     box-sizing: border-box;
     font-size: var(--font-size-5xl);
@@ -614,14 +615,14 @@
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
-    gap: 83px;
+    align-items: center;
     max-width: 100%;
   }
   .page-acceuil-inner2 {
     align-self: stretch;
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
+   
     justify-content: center;
     padding: 0 21px 35px var(--padding-xl);
     box-sizing: border-box;
@@ -944,6 +945,8 @@
 
   .flex {
     display:flex;
+    gap:10px;
+
 
   }
 .flex-wrap {
@@ -956,3 +959,12 @@
     max-width: 30%!important;
     display: flex;
   }
+
+  .inputhome {
+    width: 50%;
+    border:solid 2px #9c27b0;
+  }
+
+    .subsinput{
+      width:100%;
+    }

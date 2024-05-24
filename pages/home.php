@@ -89,8 +89,8 @@
         <div class="frame-wrapper">
           <div class="input-parent">
 
-            <form class="flex">
-              <input type="text" placeholder="Votre e-mail" class="input">
+            <form class="flex subsinput">
+              <input type="text" placeholder="Remplir avec votre e-mail" class="inputhome">
               <button class="btn4">Envoi</button>
             </form>
 
