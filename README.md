@@ -14,10 +14,12 @@ Sur ce site, vous trouverez les légumes de saison à acheter, fraîchement réc
 - 
 
 
+ef
+
 ## Technologies
 - JS
 - HTML, CSS
-- SQL
+- SQL   
 
 
 
