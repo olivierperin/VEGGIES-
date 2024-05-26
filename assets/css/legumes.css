@@ -1,4 +1,3 @@
-
 body {
   font-family: Arial, sans-serif;
 }
@@ -13,7 +12,7 @@ body {
 .bread {
   font-size: 18px;
   margin-bottom: 10px;
-  margin:20px;
+  margin: 20px;
 }
 
 h1 {
@@ -22,29 +21,34 @@ h1 {
   margin-left: 20px;
 }
 
-.legumes1 {
+.legproduit {
   width: 100%;
   display: flex;
   flex-direction: row;
-  gap:10px;
-  margin:20px;
+  gap: 10px;
+  margin: 20px;
+}
+
+.legdescr {
+  gap: 10px;
+  width: 40%;
 
 }
-.coldroit{
+
+.coldroit {
   background-color: #f8f8f8;
   border: 1px solid #ddd;
   border-radius: 8px;
   padding: 20px;
   margin: 10px;
-  width: 300px;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-  width:35%;
+  width: 60%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   font-weight: bold;
   display: flex;
   flex-direction: column;
-  gap:10px;
+  gap: 10px;
+  height: 100%;
 }
-
 
 .vignette {
   background-color: #f8f8f8;
@@ -52,8 +56,7 @@ h1 {
   border-radius: 8px;
   padding: 20px;
   margin: 10px;
-  width: 40%;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .vignette img {
@@ -70,6 +73,7 @@ h1 {
 
 .nomleg {
   font-weight: bold;
+
 }
 
 .prixcont {
@@ -77,6 +81,7 @@ h1 {
   font-size: 18px;
   text-align: center;
   color: #555;
+  width: 30%
 }
 
 .quantitecont {
@@ -97,6 +102,7 @@ h1 {
   margin-top: 10px;
   display: flex;
   gap: 10px;
+  align-items: center;
 }
 
 button {
@@ -122,48 +128,58 @@ button:hover {
 }
 
 .nometprix {
-  display:flex;
+  display: flex;
   flex-direction: row;
   justify-content: space-around;
 
 }
-.quantiteettext{
-  display:flex;
+
+.quantiteettext {
+  display: flex;
   flex-direction: column;
   justify-content: space-around;
   text-align: center;
- 
+
 
 }
-.qteplusoumoins{
-  display:flex;
+
+.qteplusoumoins {
+  display: flex;
   flex-direction: row-reverse;
   justify-content: space-around;
   align-items: center;
 
 }
+
 .quantiteqtecont {
   text-align: center;
 
 }
+
 .plusoumoinsqte {
-  display:flex;
+  display: flex;
   flex-direction: column-reverse;
+  width: 30%;
+  align-items: center;
+  border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 30px;
+  padding: 10px;
 }
 
 .prixtext {
   font-weight: bold;
 }
 
-.notations{
+.notations {
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin:20px;
+  margin: 20px;
   align-items: flex-start;
 }
 
-.comment{
+.comment {
   display: flex;
   flex-direction: column;
   background-color: #f8f8f8;
@@ -172,86 +188,126 @@ button:hover {
   padding: 20px;
   margin: 10px;
   width: 300px;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-  width:50%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 70%;
   font-weight: bold;
-  gap:10px;
+  gap: 10px;
 }
+
 .fav {
   background-color: #f8f8f8;
   border: 1px solid #ddd;
   border-radius: 8px;
   padding: 20px;
- 
-  width: 300px;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-  width:30%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 10px;
   font-weight: bold;
   display: flex;
   flex-direction: row;
-  gap:10px;
+  gap: 10px;
+  width: 50%;
 
 }
 
-.notat{
+.notat {
   background-color: #f8f8f8;
   border: 1px solid #ddd;
   border-radius: 8px;
   padding: 20px;
   margin: 10px;
   width: 300px;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-  width:15%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 15%;
   font-weight: bold;
   display: flex;
   flex-direction: column;
-  gap:10px;
+  gap: 10px;
 }
 
 .descri {
   display: flex;
-  flex-direction: column;
-  width: 50%;
-
+  flex-direction: row;
 
 }
 
-.descricontent{
+.descrinom {
+  width: 70%;
+}
+
+.descricontent {
   background-color: #f8f8f8;
   border: 1px solid #ddd;
   border-radius: 8px;
   padding: 5px;
-  
   width: 100%;
 }
 
 .saiso {
   display: flex;
   flex-direction: row;
-  gap:10px;
+  gap: 10px;
   padding: 5px;
-  width: 60%;
+  margin: 10px;
   background-color: #f8f8f8;
   border: 1px solid #ddd;
   border-radius: 8px;
   padding: 20px;
-  
+  width: 100%;
 
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
+
 .saisorec {
- display: flex; 
-flex-direction:row;
+  display: flex;
+  flex-direction: row;
 }
 
 .famil {
   display: flex;
   flex-direction: column;
-  width: 20%;
+  width: 30%;
+  padding: 23px;
+  align-items: center;
 }
-.mettre{
+
+.mettre {
   margin: 5px;
+  font-size: 30px;
 }
-.fav1 {
-width:30%;
+.enlev {
+  margin: 5px;
+  font-size: 30px;
 }
+
+.sais {
+  font-weight: bold;
+}
+
+.prixlegg,
+.univenven {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  border: solid 2px;
+  gap: 2px;
+  background-color: #f8f8f8;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 15px;
+}
+
+.divleg {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  gap:80px;
+}
+.favnot {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+

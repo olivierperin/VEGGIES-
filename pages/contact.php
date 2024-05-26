@@ -2,11 +2,12 @@
   <b>Contact</b>
 
 </p>
+
 <h1>Nous trouver</h1>
 
 
 
-<section class="carte">
+<div class="cartecont">
   <img src="./assets/images/cartefriendlyveggies.png">
   <div class="adresse">
     <img src="./assets/images/logocopy.jpg">
@@ -17,17 +18,19 @@
 
   </div>
 
-</section>
+</div>
+
+
 <h1>Une question ?</h1>
 
-<form class="formulaire">
+<form class="formulairecont">
   <label for="nom">Nom</label>
   <input type="text" id="username" name="username" required>
 
   <label for="email">Adresse e-mail</label>
   <input type="email" id="email" name="email" required>
 
-  <label for="message">Mot de passe</label>
+  <label for="message">Message/Question</label>
   <input type="message" id="message" name="message" required>
 
   <button type="submit">Envoyer</button>
