@@ -1,11 +1,16 @@
 
 body {
   font-family: Arial, sans-serif;
+bread{
+  color:#9c27b0;
 }
 
-.carte {
-  display: flex;
-  flex-direction: row;
+}
+.cartecont {
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+
 }
 
 
@@ -18,6 +23,9 @@ margin:25px;
 
 }
 
-.formulaire {
+.formulairecont {
   margin:25px;
+  display:flex;
+  flex-direction: column;
+  gap:15px;
 }

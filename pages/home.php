@@ -62,7 +62,7 @@
           </div>
         </div>
         <div class="champ-1-parent">
-          <img class="champ-1-icon" loading="lazy" alt="" src="./assets/images/champ-1-1@2x.png" />
+          <img class="champ-1-icon" loading="lazy" alt="" src="./assets/images/salade.jpg" />
 
           <div class="le-lorem-ipsum-ecomposition-et-wrapper">
             <div class="le-lorem-ipsum-ecomposition-et">
@@ -71,7 +71,7 @@
           </div>
         </div>
         <div class="champ-1-parent">
-          <img class="champ-1-icon" loading="lazy" alt="" src="./assets/images/champ-1-1@2x.png" />
+          <img class="champ-1-icon" loading="lazy" alt="" src="./assets/images/panierleg.jpg" />
 
           <div class="le-lorem-ipsum-ecomposition-et-wrapper">
             <div class="le-lorem-ipsum-ecomposition-et">

@@ -3,14 +3,14 @@
 
 </p>
 
-<h1>Nous trouver</h1>
+<h1 class="rechertext">Nous trouver</h1>
 
 
 
 <div class="cartecont">
   <img src="./assets/images/cartefriendlyveggies.png">
   <div class="adresse">
-    <img src="./assets/images/logocopy.jpg">
+    <img src="./assets/images/logo3.png">
     <h3>32 Domstraat</h3>
     <h3>1602 Vlezenbeek</h3>
     <br>
@@ -21,7 +21,7 @@
 </div>
 
 
-<h1>Une question ?</h1>
+<h1 class="rechertext">Une question ?</h1>
 
 <form class="formulairecont">
   <label for="nom">Nom</label>

@@ -1,7 +1,8 @@
 <p class="bread">
   <b>Recherche</b>
-
 </p>
+<h1 class="rechertext">Ici vous pourrez faire des recherches de légumes, de recettes, de saisons...</h1>
+
 <section class="choixgaudroi">
 <section class="choixgauche">
 <span class="rech">Recherche</span>  

@@ -2,7 +2,7 @@
   <div class="frame-parent">
     <div class="ellipse-parent">
 
-      <img class="logo" src="./assets/images/logo2405.jpeg">
+      <img class="logo" src="./assets/images/logo3.png">
     </div>
     <form>
       <input type="text" placeholder="Recherche" class="recherche">

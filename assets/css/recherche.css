@@ -12,7 +12,10 @@ body {
   display: flex;
   flex-direction: row;
 }
-
+bread{
+  color:#AF52BF;
+  
+}
 
 .choixgauche{
   display:flex;
