@@ -2,6 +2,12 @@
 body {
   font-family: Arial, sans-serif;
 }
+
+.rechertext{
+  font-size: 40px;
+  color:#AF52BF;
+  padding: 20px;
+}
 .choixgaudroi{
   display: flex;
   flex-direction: row;
