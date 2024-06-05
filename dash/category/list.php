@@ -1,10 +1,9 @@
 <?php
 
 
-$stmt = $pdo->query('SELECT firstname FROM employee');
+$stmt = $pdo->query('SELECT id, firstname FROM employee');
 while ($row = $stmt->fetch())
 {
-    echo $row['firstname'] . "<br>";
+    echo '<a href="index.php?page=edit&entity=category&id=' . $row['id'] . '">'.$row['firstname'] . "</a><br>";
+    echo $row['id'];
 }
-
-

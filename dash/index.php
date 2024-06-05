@@ -16,6 +16,9 @@
             <a href="index.php?page=list&entity=tag">Tag</a>
             <a href="index.php?page=list&entity=item">Item</a>
         </nav>
+            <br>
+            <a href="index.php?page=new&entity=category">nouvelle catégorie</a>
+
     </header>
     <?php
 

@@ -337,8 +337,9 @@
     width: max;
   }
   .bienvenue-chez-friendly-veggie {
-    margin: 0;
+    margin: 2rem;
     font-size: 35px;
+
   }
   .blank-line {
     margin: 0;
